@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SG2VID: Scene Graphs Enable Fine-Grained Control for Video Synthesis</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SG2VID: Scene Graphs Enable Fine-Grained Control for Video Synthesis</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Ssharvien Kumar Sivakumar</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yannik Frisch</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Ghazal Ghazaei</a><sup>2</sup>,</span>
+                    <span class="author-block">
+                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Anirban Mukhopadhyay</a><sup>1</sup>
+                    
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>TU Darmstadt</sup>, </sup><sup>2</sup>Carl Zeiss AG<br>MICCAI 2025 <span style="color: red;">(Early Accept - Top 9%)</span></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Paper PDF link -->
+                  <!-- <span class="link-block">
+                    <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/MECLabTUDA/SG2VID" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code - Coming Soon</span>
+              </a>
+            </span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Concept figure -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="hero-body">
+          <img src="static/images/concept_figure.png">
+          <h2 class="subtitle has-text-centered">
+            Surgical Video Synthesis using Scene Graphs (SGs) and optional first-frame conditioning. Nodes in SGs contain spatial and temporal information about their components, including spatial spreading, centroid position, average depth, and average flow. This enables precise synthesis yet is intuitive for human interaction.
+          </h2>
+      </div>
+  </div>
+</section>
+<!-- End concept figure -->
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Surgical simulation plays a pivotal role in training novice surgeons, accelerating their learning curve and reducing intra-operative errors. However, conventional simulation tools fall short in providing the necessary photorealism and the variability of human anatomy. In response, current methods are shifting towards generative model-based simulators. Yet, these approaches primarily focus on using increasingly complex conditioning for precise synthesis while neglecting the fine-grained human control aspect. To address this gap, we introduce SG2VID, the first diffusion-based video model that leverages Scene Graphs for both precise video synthesis and fine-grained human control. We demonstrate SG2VID’s capabilities across three public datasets featuring cataract and cholecystectomy surgery. While SG2VID outperforms previous methods both qualitatively and quantitatively, it also enables precise synthesis, providing accurate control over tool and anatomy’s size and movement, entrance of new tools, as well as the overall scene layout. We qualitatively motivate how SG2VID can be used for generative augmentation and present an experiment demonstrating its ability to improve a downstream phase detection task when the training set is extended with our synthetic videos. Finally, to showcase SG2VID’s ability to retain human control, we interact with the Scene Graphs to generate new video samples depicting major yet rare intra-operative irregularities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Qualitative Samples -->
+<section>
+  <div class="hero is-normal">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered has-text-centered"></div>
+        <h2 class="title is-4 has-text-centered" >Qualitative Results</h2>
+
+          <div class="video-container">
+            <video width="100%" playsinline autoplay loop preload muted>
+                <source src="static/videos/A1_Additonal_Samples_Cataract1k_Edit.mp4" type="video/mp4">
+            </video>
+            <h2 class="title is-5 vertical-text">Cataract-1k</h2>
+        </div>
+
+        <div class="video-container">
+          <video width="100%" playsinline autoplay loop preload muted>
+              <source src="static/videos/A2_Additonal_Samples_CATARACTS_Edit.mp4" type="video/mp4">
+          </video>
+          <h2 class="title is-5 vertical-text">CATARACTS</h2>
+      </div>
+
+        <div class="video-container">
+          <video width="100%" playsinline autoplay loop preload muted>
+              <source src="static/videos/A3_Additonal_Samples_Cholec80_Edit.mp4" type="video/mp4">
+          </video>
+          <h2 class="title is-5 vertical-text">Cholec80</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!-- End Qualitative Samples -->
+
+
+<!-- Experiments -->
+<section>
+  <div class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered has-text-centered"></div>
+        <h2 class="title is-4 has-text-centered" style="margin-bottom: 10px;margin-top: 30px">Synthesisation of Pupil Contraction Irregularities</h2>
+          <div class="video-container">
+            <video width="100%" playsinline autoplay loop preload muted style="margin-bottom: 30px;">
+                <source src="static/videos/C_Pupil_Collapse_Simulation_Edit.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h2 class="title is-4 has-text-centered" style="margin-bottom: 10px;margin-top: 40px">Generalisation on Unseen Images<br>from the OphNet Dataset</h2>
+          <div class="video-container">
+            <video width="100%" playsinline autoplay loop preload muted style="margin-bottom: 30px;">
+                <source src="static/videos/D_Ophnet_Generalisation_Edit.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+  </div>
+</section>
+<br>
+<!-- End Experiments -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered">Qualitative Comparison</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/B1_Qualitative_Comparison_Cataract1k_Edit.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/B2_Qualitative_Comparison_CATARACTS_Edit.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/B3_Qualitative_Comparison_Cholec80_Edit.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <div style="position: relative; display: inline-block; width: 100%;">
+        <button onclick="copyBibTeX()" class="button is-small is-primary" style="position: absolute; top: 10px; right: 10px; z-index: 10;">
+          Copy
+        </button>
+        <pre style="position: relative; padding-right: 5px;">      <code id="bibtex">
+  @article{sivakumar2025sg2vid,
+           title={SG2VID: Scene Graphs Enable Fine-Grained Control for Video Synthesis},
+           author={Sivakumar, Ssharvien Kumar and Frisch, Yannik and Ghazaei, Ghazal and Mukhopadhyay, Anirban},
+           journal={arXiv preprint arXiv:xxxx.xxxx},
+           year={2025}
+          }</code>
+        </pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p style="text-align: center;">
+            Modified from <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">this website.</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
